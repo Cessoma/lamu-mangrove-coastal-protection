@@ -1,0 +1,21 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+*.RData
+
+# Intermediate files
+checkpoints/
+mc_cache_*.rds
+
+# Restricted data (not redistributable)
+lamu_wind_2024_2025.csv
+
+# Survey data (available from the corresponding author on request)
+Survey_New.xlsx
+
+# Generated outputs (recreated by running the scripts)
+plots/
+Final_outputs/
+lamu_*.csv
+wemo_*.csv
